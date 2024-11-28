@@ -1,0 +1,46 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+paper:
+  title: >
+    Describing the scale and composition of calls for police service: a replication and extension using open data
+  authors:
+    - name: Samuel Langton
+      ORCID: 0000-0002-1322-1553
+    - name: Stijn Ruiter
+      ORCID: 0000-0003-2872-2710
+    - name: Tim Verlaan
+      ORCID: 0000-0002-3048-5817
+      
+  reference: https://doi.org/10.1080/15614263.2022.2102494
+
+manifest:
+  - file: visuals/fig1_time_tos.png
+    comment: figure 1
+  - file: visuals/fig2_lorenz_demands.png
+  - comment: figure 2
+  - file: visuals/fig3_time_heat_tos_revised.png
+  - comment: figure 3
+  - file: visuals/fig4_maps_tos.png
+  - comment: figure 4
+  - file: visuals/fig5_maps_counts.png
+  - comment: figure 5
+  - file: visuals/fig6_histogram_mins_tos.png
+  - comment: figure 6
+
+codechecker:
+  - name: Joey Tang
+    ORCID: 00000-0002-0820-6674
+  - name: Max Reichert
+    ORCID: 0009-0003-8352-7288
+  - name: Flora Zhou
+    ORCID: 0009-0002-4934-1474
+  - name: Eduard Klapwijk
+    ORCID: 0000-0002-8936-0365
+
+summary: >
+  Downloaded the data and ran the necessary R scripts to generate the figures. 
+repository: https://github.com/joeytang202/codecheck_LangtonRuiterVerlaan2022/upload
+check_time: "2024-11-28 14:00:00"
+certificate: 2024-020
+report: https://doi.org/10.5281/zenodo.FIXME
