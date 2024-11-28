@@ -15,18 +15,22 @@ paper:
   reference: https://doi.org/10.1080/15614263.2022.2102494
 
 manifest:
-  - file: visuals/fig1_time_tos.png
+  - file: 
+    comments: table 1
+  - file: results/table1_des_stats_tos.csv
     comment: figure 1
+  - file: results/table2_des_stats_tos.csv
+    comment: figure 2
   - file: visuals/fig2_lorenz_demands.png
-  - comment: figure 2
+    comment: figure 2
   - file: visuals/fig3_time_heat_tos_revised.png
-  - comment: figure 3
+    comment: figure 3
   - file: visuals/fig4_maps_tos.png
-  - comment: figure 4
+    comment: figure 4
   - file: visuals/fig5_maps_counts.png
-  - comment: figure 5
+    comment: figure 5
   - file: visuals/fig6_histogram_mins_tos.png
-  - comment: figure 6
+    comment: figure 6
 
 codechecker:
   - name: Joey Tang
