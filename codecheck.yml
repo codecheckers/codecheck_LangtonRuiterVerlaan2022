@@ -15,12 +15,10 @@ paper:
   reference: https://doi.org/10.1080/15614263.2022.2102494
 
 manifest:
-  - file: 
-    comments: table 1
   - file: results/table1_des_stats_tos.csv
-    comment: figure 1
+    comment: table 1
   - file: results/table2_des_stats_tos.csv
-    comment: figure 2
+    comment: table 2
   - file: visuals/fig2_lorenz_demands.png
     comment: figure 2
   - file: visuals/fig3_time_heat_tos_revised.png
@@ -44,7 +42,7 @@ codechecker:
 
 summary: >
   Downloaded the data and ran the necessary R scripts to generate the figures. 
-repository: https://github.com/joeytang202/codecheck_LangtonRuiterVerlaan2022/upload
+repository: https://github.com/codecheckers/codecheck_LangtonRuiterVerlaan2022/
 check_time: "2024-11-28 14:00:00"
 certificate: 2024-020
-report: https://doi.org/10.5281/zenodo.FIXME
+report: https://doi.org/10.5281/zenodo.14278912

@@ -56,8 +56,6 @@ latex_summary_of_manifest(metadata, manifest_df, root)
 
 # Summary
 
-This code was (not) straightforward to codecheck.
-[... ADD MORE INTERESTING FINDINGS HERE..]
 
 \clearpage
 
@@ -132,9 +130,7 @@ for(i in c(1:nrow(manifest_df))) {
 
 ## Acknowledgements
 
-I would like to thank Dr Bhatt and his team for promptly answering any
-queries I had with this reproduction.  CODECHECK is financially
-supported by the Mozilla foundation.
+We would like to acknowledge NWO for funding the CHECK-NL project, and enabling the workshop at Rotterdam.
 
 # Citing this document
 
