@@ -32,7 +32,7 @@ manifest:
 
 codechecker:
   - name: Joey Tang
-    ORCID: 00000-0002-0820-6674
+    ORCID: 0000-0002-0820-6674
   - name: Max Reichert
     ORCID: 0009-0003-8352-7288
   - name: Flora Zhou
